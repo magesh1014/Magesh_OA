@@ -12,14 +12,19 @@ def multiply():
 # [a*b] = must output some kind of data type {432,false,"string",[1,2,3]}
 # in absence of data, return statement can be skip by replacing print statement
     
-    # print(hello)
+    print(hello)
 
 # only defining the function is not enough, we also need to call it
 multiply()      #call function
 
-if a>b:         # a and b don't exist outside the function
-    print(a)
+if "a">"b":         # a and b don't exist outside the function
+    print("a")
 
 # # # NameError : name "a" is not defined
 
+def multiply(a,b):  #(a,b) are known as parameter these are placeholder for arguments
+    print(a*b)
+    
+multiply(2,4)       #(2,4) are known as arguments to assign value to parameters
+multiply(3,4)
  
